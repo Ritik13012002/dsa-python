@@ -1,5 +1,5 @@
 nums = [3,4,5,6]
-target = 7
+target = 8
 skim = {}
 for i in range(len(nums)):
    j = target - nums[i]
