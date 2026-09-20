@@ -1,5 +1,6 @@
 __pycache__/
 *.pyc
+.kilo/
 
 # VS Code Code Runner scratch artifact
 tempCodeRunnerFile.py

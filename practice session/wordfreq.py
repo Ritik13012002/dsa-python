@@ -9,7 +9,7 @@ def wordfreq(s):
             dict[i] += 1
         else:
             dict[i] =1 
-    return sorted(dict.items(), key = lambda x: x[1], reverse = True)
+    return sorted(dict.items(), key = lambda x: (x[1],x[0]),reverse = True)
 
 
 print(wordfreq("My ,name is Peter Parker and Peter Parker is spiderman? Spiderman is the member of Avengers and His girfriend name is MJ"))

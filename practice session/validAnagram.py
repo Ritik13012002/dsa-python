@@ -19,6 +19,8 @@ def is_anagram(s , t):
     for i in t:
         if i in dict:
             dict[i] -= 1
+            if dict[i] < 0:
+                return False
         else:
             return False
     for i in dict:
